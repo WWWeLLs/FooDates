@@ -1,0 +1,37 @@
+/* RESTAURANT PAGE */
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+  }
+  
+  /* Header Vides */
+  /* Style the video: 100% width and height to cover the entire window */
+  #myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    height: 10%;
+    width: 100%;
+    min-width: 50%; 
+    min-height: 50%;
+  }
+  
+  
+  /* When the input field gets focus, change its width to 100% */
+  input[type=text]:focus {
+    width: 50%;
+  }
+  
+  /* Star Rating */
+  .checked {
+    color: white;
+  }
+  
+  /*Third Ward Image */
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
